@@ -1,16 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 
 }
+body{
+    font-family: lato, sans-serif;
+    font-weight:300;
+    color:rgb(25, 29, 33)
+}
 .header{
-    min-height: 100vh;
+    min-height: 10vh;
     width: 100%;
-    background-image: url("/assets/images/banner.png");
+    background: lightblue;
     background-position: center;
     background-size: cover;
     position: relative;
- 
+ /* nav{
+    <a href="index.html"><img src: "/assets/images/ardex_logo.phg" alt:"ardex logo";
+ } */
+}
+#logo{
+    float: left;
+
 }
 nav{
     display: flex;
@@ -19,9 +32,9 @@ nav{
     padding: 2px 6px;
 }
 
-/* nav img{
+nav img{
     width: 150px;
-} */
+}
 
 .nav-links{
     flex: 1;
