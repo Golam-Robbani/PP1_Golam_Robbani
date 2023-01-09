@@ -1,55 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 
 }
-body{
+
+body {
     font-family: lato, sans-serif;
-    font-weight:300;
-    color:rgb(25, 29, 33)
+    font-weight: 300;
+    color: rgb(25, 29, 33)
 }
-.header{
-    min-height: 10vh;
+
+.header {
+    min-height: 11.5vh;
     width: 100%;
     background: lightblue;
     background-position: center;
     background-size: cover;
     position: relative;
- /* nav{
-    <a href="index.html"><img src: "/assets/images/ardex_logo.phg" alt:"ardex logo";
- } */
 }
-#logo{
-    float: left;
 
+#logo {
+    width: 150px;
+    outline: 4px solid red;
+    margin: 4px;
+    float: left;
 }
-nav{
+
+h1, h2 {
+    font-family: lato, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:black;
+}
+/* navigation links */
+/* 
+#nav-links li {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2px 6px;
-}
+    float: right;
+} */
 
-nav img{
-    width: 150px;
-}
-
+/* 
 .nav-links{
     flex: 1;
     text-align: right;
+} */
+
+#nav-links {
+    font-size: 200%;
+    letter-spacing: 2px;
+    
 }
 
-.nav-links ul li{
-    list-style: none;
-    display: inline-block
-    padding: 8px 12px;
-    position: relative;
-  }
- 
-  .nav-links ul li a {
-    text-decoration: none;
-    color: #fff;
+#nav-links {
+    float: right;
+    letter-spacing: 3px;
+    list-style-type: none;
+    margin-right: 30px;
+    text-transform: uppercase;
+    
+  
+}
+
+#nav-links li {
     font-size: 15px;
-  }
+    display: inline-block;
+    position: relative;
+    padding: 20px 12px;
+}
+
+#nav-links li a{
+     text-decoration: none;
+}
